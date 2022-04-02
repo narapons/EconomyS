@@ -86,7 +86,7 @@ class EconomyJob extends PluginBase implements Listener
 			return false;
 		}
 		$content = stream_get_contents($resource);
-		@fclose($content);
+		//@fclose($content);
 		return $content;
 	}
 
